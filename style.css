@@ -14,7 +14,7 @@ body {
    overflow: hidden;
 }
 
-.container {
+#container {
    width: 500px;
    height: 500px;
    border-radius: 50%;
@@ -22,10 +22,10 @@ body {
    border: 15px solid #dde;
    position: relative;
    overflow: hidden;
-   transition: transform ease-out 2s;
+   transition: transform ease-out 3s;
 }
 
-.container div {
+#container div {
    height: 50%;
    width: 200px;
    position: absolute;
@@ -42,47 +42,47 @@ body {
    left: 135px;
 }
 
-.container .one {
+#container .one {
    background-color: blue;
    left: 50%;
 }
 
-.container .two {
+#container .two {
    background-color: orange;
    transform: rotate(45deg);
 }
 
-.container .three {
+#container .three {
    background-color: green;
    transform: rotate(90deg);
 }
 
-.container .fore {
+#container .fore {
    background-color: red;
    transform: rotate(135deg);
 }
 
-.container .five {
+#container .five {
    background-color: yellow;
    transform: rotate(180deg);
 }
 
-.container .six {
+#container .six {
    background-color: brown;
    transform: rotate(225deg);
 }
 
-.container .six {
+#container .six {
    background-color: purple;
    transform: rotate(225deg);
 }
 
-.container .seven {
+#container .seven {
    background-color: pink;
    transform: rotate(270deg);
 }
 
-.container .eight {
+#container .eight {
    background-color: rgb(37, 181, 192);
    transform: rotate(315deg);
 }
